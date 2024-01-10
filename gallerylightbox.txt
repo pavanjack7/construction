@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Lightbox </title>
+    <link rel="stylesheet" href="gallerypage-lightbox.css">
+</head>
+<body>
+    <div class="gallery">
+        <ul class="controls">
+            <li class="buttons" data-filters="all">all</li>
+            <li class="buttons" data-filters="all">Bungalow</li>
+            <li class="buttons" data-filters="all">Villa</li>
+            <li class="buttons" data-filters="all">Apartment</li>
+            <li class="buttons" data-filters="all">Interiorimage</li>
+        </ul>
+        <div class="image-container">
+            <a href="./BI2.jpg" class="image Bungalow ">
+                <img src="./BI2.jpg" alt="">
+            </a>
+            <a href="./BI3.jpg" class="image Bungalow ">
+                <img src="./BI3.jpg" alt="">
+            </a>
+            <a href="./BI3.jpg" class="image Bungalow ">
+                <img src="./BI3.jpg" alt="">
+            </a>
+            <a href="./VI1.jpg" class="image villa ">
+                <img src="./VI1.jpg" alt="">
+            </a>
+            <a href="./VI2.jpg" class="image villa">
+                <img src="./VI2.jpg" alt="">
+            </a>
+            <a href="./VI3.JPG" class="image villa">
+                <img src="./VI3.JPG" alt="">
+            </a>
+            <a href="./FI1.JPG" class="image Apartment ">
+                <img src="./FI1.JPG" alt="">
+            </a>
+            <a href="./FI2.jpg" class="image Apartment">
+                <img src="./FI2.jpg" alt="">
+            </a>
+            <a href="./FI3.JPG" class="image Apartment">
+                <img src="./FI3.JPG" alt="">
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>
